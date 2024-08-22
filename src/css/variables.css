@@ -1,0 +1,54 @@
+/** color palette  */
+:root {
+    --pink: #FACDFC;
+  
+    --blue: #6B99E2;
+
+    --dark-blue: #5184FB;
+  
+    --grey: #313131;
+  
+    --red: #FA4E37;
+
+    --yellow: #F0EC84;
+
+    --white: #F2F0EE;
+
+    --main-gradient: linear-gradient(180deg, #5184FB 0%, #BDB6FA 125.69%);
+
+    --btn-gradient: linear-gradient(105deg, #FACDFC -1.24%, #F0EC84 98.99%);
+
+  }
+  
+  /** semantic color variables for this project */
+  
+  :root {
+    --gradient-background: var(--main-gradient);
+
+    --gradient-btn: var(--btn-gradient);
+
+    --color-text: var(--white);
+
+    --color-mandatory: var(--red);
+
+    --color-border: var(--white);
+
+    --background-noise: url("../images/Noise.png") lightgray 0% 0% / 148.5629677772522px 148.5629677772522px repeat;
+
+
+
+
+
+
+    --color-background-card: var(--light-grey);
+  
+    --color-button: var(--light-green);
+    --color-button-active: var(--green);
+  
+    --color-shadow: var(--dark-pink);
+  
+    --color-background-project: #000000;
+    --color-backgroundCard-project: #000000;
+    --color-shadow-project: #000000;
+    --color-borderText-project: #000000;
+  }

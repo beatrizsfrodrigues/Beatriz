@@ -1,0 +1,75 @@
+/* * imports */
+@import "./variables.css";
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Redacted+Script:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap');
+@font-face {
+    font-family: Humanism;
+    src: url("../fonts/PNAHumanismDEMO-Bold.otf") format("opentype");
+}
+
+/* * basic */
+
+body {
+    height: 100vh;
+    background: var(--gradient-background);
+    background-attachment: fixed;
+    color: var(--color-text);
+    font-size: 24px;
+    font-family: Quicksand, sans-serif;
+    font-weight: 400;
+    margin: 0;
+    padding: 0 48px;
+}
+
+h1 {
+    font-family: Humanism;
+    font-size: 56px;
+}
+
+.redacted {
+    font-family: "Redacted Script", cursive;
+    font-weight: 300;
+    font-size: 64px;
+}
+
+.horizontal {
+    display: flex;
+    flex-direction: row;
+}
+
+#nav {
+    width: 100%; /* Make sure it spans the full width */
+    background: var(--dark-blue);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0; /* Ensure it's aligned to the left edge */
+    padding: 0 48px; /* Padding on both sides */
+    box-sizing: border-box; /* Ensures padding is included in the width */
+    z-index: 1000; /* Keep it above other content */
+}
+
+
+.navLink {
+    margin-right: 24px;
+    cursor: pointer;
+    color: var(--color-text);
+    font-size: 24px;
+    font-family: Quicksand, sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    /* font-size: 18px; */
+}
+
+#navLinks .navLink:last-child {
+    margin-right: 0;
+}
+
+.mainBody {
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top: 168px;
+}

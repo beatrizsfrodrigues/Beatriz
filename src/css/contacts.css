@@ -1,0 +1,75 @@
+#contactsDiv {
+  display: flex;
+  justify-content: space-between;
+}
+
+#contactsDiv1 {
+  width: 40%;
+}
+
+#socialC {
+  display: flex;
+  justify-content: space-evenly;
+  width: 240px;
+  align-items: end;
+}
+
+.mandatory {
+  margin-left: 8px;
+  /* fill: red; */
+}
+
+form > * {
+  margin-bottom: -4px;
+}
+
+form {
+  width: 40%;
+}
+
+input {
+  width: 100%;
+  background: rgba(255, 238, 249, 0.6);
+  /* opacity: 60%; */
+  border: var(--color-border) 4px solid;
+  border-radius: 16px;
+  height: 16px;
+  padding: 8px;
+  font-size: 16px;
+  color: var(--grey);
+  font-family: Quicksand, sans-serif;
+  font-weight: 400;
+}
+
+textarea {
+  width: 100%;
+  background: rgba(255, 238, 249, 0.6);
+  border: var(--color-border) 4px solid;
+  border-radius: 16px;
+  padding: 8px;
+  resize: none;
+  font-size: 16px;
+  color: var(--grey);
+  font-family: Quicksand, sans-serif;
+  font-weight: 400;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+  background: var(--gradient-btn);
+  padding: 16px 32px;
+  border: var(--color-border) 4px solid;
+  border-radius: 16px;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: Quicksand, sans-serif;
+  color: var(--grey);
+  margin-top: 32px;
+}
+
+button:hover {
+  background: linear-gradient(white, white) padding-box,
+    var(--gradient-btn) border-box;
+  border: 4px solid transparent;
+}

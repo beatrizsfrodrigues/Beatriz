@@ -1,0 +1,99 @@
+{
+    "projects": [
+      {
+        "id": 0,
+        "name": "Evergreen",
+        "filter": [0, 1, 2],
+        "info": "",
+        "photo": "src/assets/images/img1.png",
+        "video": "",
+        "poster": "",
+        "skills": [],
+        "github": "",
+        "figma": ""
+      },
+      {
+        "id": 1,
+        "name": "Training Wheels",
+        "filter": [0, 1, 2],
+        "info": "",
+        "photo": "src/assets/images/img2.png",
+        "video": "",
+        "poster": "",
+        "skills": [],
+        "github": "",
+        "figma": ""
+      },
+      {
+        "id": 2,
+        "name": "Eco-Meow",
+        "filter": [2, 5],
+        "info": "",
+        "photo": "src/assets/images/img3.png",
+        "video": "",
+        "poster": "",
+        "skills": [],
+        "github": ""
+      }
+    ],
+  
+    "filters": [
+      {
+        "id": 0,
+        "name": "Website"
+      },
+      {
+        "id": 1,
+        "name": "UX/UI design"
+      },
+      {
+        "id": 2,
+        "name": "School project"
+      },
+      {
+        "id": 3,
+        "name": "Social media post"
+      },
+      {
+        "id": 4,
+        "name": "Logo"
+      },
+      {
+        "id": 5,
+        "name": "Game"
+      }
+    ],
+  
+    "skills": [
+      {
+        "id": 0,
+        "name": "CSS",
+        "icon": ""
+      },
+      {
+        "id": 1,
+        "name": "JavaScript",
+        "icon": ""
+      },
+      {
+        "id": 2,
+        "name": "Figma",
+        "icon": ""
+      },
+      {
+        "id": 3,
+        "name": "Photoshop",
+        "icon": ""
+      },
+      {
+        "id": 4,
+        "name": "Illustrator",
+        "icon": ""
+      },
+      {
+        "id": 5,
+        "name": "Vue",
+        "icon": ""
+      }
+    ]
+  }

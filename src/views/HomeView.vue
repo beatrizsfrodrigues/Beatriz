@@ -1,6 +1,8 @@
 <template>
   <div class="mainBody">
+    <p id="note1" class="notes">look around!</p>
     <div class="horizontal" id="centerInfo">
+      <p id="note2" class="notes">that's me</p>
       <div class="profileContainer">
         <img src="../images/pfp.png" alt="" id="pfp" />
         <div class="circle"></div>
@@ -24,6 +26,18 @@
           </div>
         </div>
       </div>
+    </div>
+    <p id="note3" class="notes">my projects</p>
+    <div id="projectsPics">
+      <img class="projectsPics" src="../images/img1.png" alt="" />
+      <img class="projectsPics" src="../images/img2.png" alt="" />
+      <img class="projectsPics" src="../images/img1.png" alt="" />
+    </div>
+    <p id="note4" class="notes">follow me</p>
+    <div id="social">
+      <img src="../images/github.svg" alt="" />
+      <img src="../images/linkedin.svg" alt="" />
+      <img src="../images/behance.svg" alt="" />
     </div>
   </div>
 </template>

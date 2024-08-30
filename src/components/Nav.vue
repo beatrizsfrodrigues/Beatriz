@@ -1,6 +1,6 @@
 <template>
   <div id="nav" class="horizontal">
-    <p>Logo</p>
+    <router-link to="/"><p>Logo</p></router-link>
     <div class="horizontal" id="navLinks">
       <router-link to="/projects" class="navLink"><p>Projects</p></router-link>
       <router-link to="/about" class="navLink"><p>About me</p></router-link>

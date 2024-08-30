@@ -1,5 +1,7 @@
 <template>
-  <div></div>
+  <div class="mainBody">
+    <h1>My Projects</h1>
+  </div>
 </template>
 
 <script>

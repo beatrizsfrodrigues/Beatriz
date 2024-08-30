@@ -1,12 +1,5 @@
 <template>
-  <div>
-    <p>çogo</p>
-    <div class="right">
-      <p>Projects</p>
-      <p>About me</p>
-      <p>Contacts</p>
-    </div>
-  </div>
+  <div id="footer" class="horizontal"></div>
 </template>
 
 <script>

@@ -1,0 +1,8 @@
+.videoTour {
+  background-color: rgb(34, 124, 202);
+  width: 782px;
+  height: 440px;
+  object-fit: cover;
+  border-radius: 16px;
+  border: var(--color-border) 4px solid;
+}

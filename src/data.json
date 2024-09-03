@@ -1,99 +1,128 @@
 {
-    "projects": [
-      {
-        "id": 0,
-        "name": "Evergreen",
-        "filter": [0, 1, 2],
-        "info": "",
-        "photo": "src/assets/images/img1.png",
-        "video": "",
-        "poster": "",
-        "skills": [],
-        "github": "",
-        "figma": ""
-      },
-      {
-        "id": 1,
-        "name": "Training Wheels",
-        "filter": [0, 1, 2],
-        "info": "",
-        "photo": "src/assets/images/img2.png",
-        "video": "",
-        "poster": "",
-        "skills": [],
-        "github": "",
-        "figma": ""
-      },
-      {
-        "id": 2,
-        "name": "Eco-Meow",
-        "filter": [2, 5],
-        "info": "",
-        "photo": "src/assets/images/img3.png",
-        "video": "",
-        "poster": "",
-        "skills": [],
-        "github": ""
-      }
-    ],
-  
-    "filters": [
-      {
-        "id": 0,
-        "name": "Website"
-      },
-      {
-        "id": 1,
-        "name": "UX/UI design"
-      },
-      {
-        "id": 2,
-        "name": "School project"
-      },
-      {
-        "id": 3,
-        "name": "Social media post"
-      },
-      {
-        "id": 4,
-        "name": "Logo"
-      },
-      {
-        "id": 5,
-        "name": "Game"
-      }
-    ],
-  
-    "skills": [
-      {
-        "id": 0,
-        "name": "CSS",
-        "icon": ""
-      },
-      {
-        "id": 1,
-        "name": "JavaScript",
-        "icon": ""
-      },
-      {
-        "id": 2,
-        "name": "Figma",
-        "icon": ""
-      },
-      {
-        "id": 3,
-        "name": "Photoshop",
-        "icon": ""
-      },
-      {
-        "id": 4,
-        "name": "Illustrator",
-        "icon": ""
-      },
-      {
-        "id": 5,
-        "name": "Vue",
-        "icon": ""
-      }
-    ]
-  }
+  "projects": [
+    {
+      "id": 0,
+      "name": "Evergreen",
+      "filter": [0, 1, 2],
+      "photos": [
+        "https://res.cloudinary.com/dsdq3yrz5/image/upload/v1725375973/portfolio/evergreen1_u2j9eo.png",
+        "https://res.cloudinary.com/dsdq3yrz5/image/upload/v1725375974/portfolio/evergreen2_v5rkyl.png",
+        "https://res.cloudinary.com/dsdq3yrz5/image/upload/v1725375980/portfolio/evergreen3_ssldrj.png"
+      ],
+      "video_tour": "https://res.cloudinary.com/dsdq3yrz5/video/upload/v1725374101/portfolio/evergreen_tour_pkd6jk.mp4",
+      "poster": "https://res.cloudinary.com/dsdq3yrz5/image/upload/v1725377254/portfolio/poster_evergreen_mfl7ov.png",
+      "skills": [],
+      "githubPages": "https://motamdaniela.github.io/Evergreen/Home",
+      "github": "https://github.com/motamdaniela/Evergreen",
+      "github2": "https://github.com/motamdaniela/Evergreen-backend",
+      "figma": "https://www.figma.com/design/Ywjn7cvznFeKiS011dGjtV/Evergreen?node-id=0-1&t=PrtiIfWZAi0GE6gk-1",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in arcu eget lectus semp"
+    },
+    {
+      "id": 1,
+      "name": "Training Wheels",
+      "filter": [0, 1, 2],
+      "photos": [
+        "https://res.cloudinary.com/dsdq3yrz5/image/upload/v1725376086/portfolio/tw2_et6dfd.png",
+        "https://res.cloudinary.com/dsdq3yrz5/image/upload/v1725376084/portfolio/tw1_foc8sj.png",
+        "https://res.cloudinary.com/dsdq3yrz5/image/upload/v1725376082/portfolio/tw3_kvzg15.png"
+      ],
+      "video_tour": "https://res.cloudinary.com/dsdq3yrz5/video/upload/v1725375178/portfolio/trainingwheels_tour_b6kwtz.mp4",
+      "video_promotional": "https://res.cloudinary.com/dsdq3yrz5/video/upload/v1725375178/portfolio/trainingwheels_tour_b6kwtz.mp4",
+      "poster": "https://res.cloudinary.com/dsdq3yrz5/image/upload/v1725375653/portfolio/40210349_DanielaMoreira_P02C_IDA_v1-1_spjopj.png",
+      "skills": [],
+      "github": "https://github.com/motamdaniela/Training-Wheels",
+      "figma": "https://www.figma.com/design/jtRxOiCPun4XkHLRycriPT/Untitled?node-id=439-846&t=HruuN3wtpxBoLLke-1",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in arcu eget lectus semp"
+    },
+    {
+      "id": 2,
+      "name": "Eco-Meow",
+      "filter": [2, 5],
+      "photos": [
+        "https://res.cloudinary.com/dsdq3yrz5/image/upload/v1725382710/portfolio/em1_nvwczp.png",
+        "https://res.cloudinary.com/dsdq3yrz5/image/upload/v1725382713/portfolio/em2_m3d7lw.png",
+        "https://res.cloudinary.com/dsdq3yrz5/image/upload/v1725382706/portfolio/em3_s3ljfs.png"
+      ],
+      "video_tour": "https://res.cloudinary.com/dsdq3yrz5/video/upload/v1725382614/portfolio/ecomeow_tour_btz03j.mp4",
+      "skills": [],
+      "githubPages": "https://motamdaniela.github.io/Eco-Meow/",
+      "github": "https://github.com/motamdaniela/Eco-Meow",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in arcu eget lectus semp"
+    },
+    {
+      "id": 3,
+      "name": "Eco-Meow 2.0",
+      "filter": [2, 5],
+      "photos": [
+        "https://res.cloudinary.com/dsdq3yrz5/image/upload/v1725385132/portfolio/em21_p2qdjj.png",
+        "https://res.cloudinary.com/dsdq3yrz5/image/upload/v1725385135/portfolio/em22_zh2y61.png",
+        "https://res.cloudinary.com/dsdq3yrz5/image/upload/v1725385130/portfolio/em23_q9hx5x.png"
+      ],
+      "video_tour": "https://res.cloudinary.com/dsdq3yrz5/video/upload/v1725385105/portfolio/ecomeow2_tour_siz0ej.mp4",
+      "skills": [],
+      "github": "https://github.com/motamdaniela/Eco-Meow/tree/main/Eco-Meow2.0",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in arcu eget lectus semp"
+    }
+  ],
+
+  "filters": [
+    {
+      "id": 0,
+      "name": "Website"
+    },
+    {
+      "id": 1,
+      "name": "UX/UI design"
+    },
+    {
+      "id": 2,
+      "name": "School project"
+    },
+    {
+      "id": 3,
+      "name": "Social media post"
+    },
+    {
+      "id": 4,
+      "name": "Logo"
+    },
+    {
+      "id": 5,
+      "name": "Game"
+    }
+  ],
+
+  "skills": [
+    {
+      "id": 0,
+      "name": "CSS",
+      "icon": ""
+    },
+    {
+      "id": 1,
+      "name": "JavaScript",
+      "icon": ""
+    },
+    {
+      "id": 2,
+      "name": "Figma",
+      "icon": ""
+    },
+    {
+      "id": 3,
+      "name": "Photoshop",
+      "icon": ""
+    },
+    {
+      "id": 4,
+      "name": "Illustrator",
+      "icon": ""
+    },
+    {
+      "id": 5,
+      "name": "Vue",
+      "icon": ""
+    }
+  ]
+}

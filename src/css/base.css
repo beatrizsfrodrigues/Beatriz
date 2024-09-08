@@ -8,18 +8,34 @@
   src: url("../fonts/PNAHumanismDEMO-Bold.otf") format("opentype");
 }
 
+@font-face {
+  font-family: Puffy;
+  src: url("../fonts/SAPuffyPop-Bold.otf") format("opentype");
+}
+
 /* * basic */
 
 body {
   height: 100vh;
   background: var(--gradient-background);
+  /* background: url("https://res.cloudinary.com/dsdq3yrz5/image/upload/v1725463840/portfolio/Noise_wrubuo.png")
+      lightgray 0% 0% / 148.5629677772522px 148.5629677772522px repeat,
+    linear-gradient(180deg, #5184fb 0%, #bdb6fa 125.69%); */
   background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   color: var(--color-text);
   font-size: 24px;
   font-family: Quicksand, sans-serif;
   font-weight: 400;
   margin: 0;
-  /* padding: 0 48px; */
+}
+
+.logo {
+  font-family: Puffy;
+  color: var(--color-text);
+  text-decoration: none;
 }
 
 h1 {
@@ -45,8 +61,8 @@ h3 {
 
 .notes {
   font-family: "Reenie Beanie", cursive;
-  font-size: 32px;
-  position: absolute;
+  font-size: 40px;
+  /* position: absolute; */
 }
 
 .redacted {
@@ -100,10 +116,167 @@ h3 {
   margin-right: 0;
 }
 
+#navMobile {
+  width: 100%;
+  background: linear-gradient(180deg, #5184fb -65.69%, #bdb6fa 2229.41%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 8px 32px;
+  box-sizing: border-box;
+  z-index: 1000;
+}
+
+#navContent {
+  height: 100vh;
+  width: 40%;
+  padding: 24px 24px;
+  /* flex-direction: column; */
+  border-radius: 8px;
+  border: 4px solid #f2f0ee;
+  background: rgba(255, 238, 249, 0.8);
+  z-index: 1001;
+  position: absolute;
+  top: 0px;
+  right: -100%;
+  position: fixed;
+}
+
+.navLinks2 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.line {
+  width: 100%;
+}
+
+.btnMenu {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+}
+
+.btnClose {
+  margin-right: 12px;
+  margin-left: auto;
+  margin-bottom: 24px;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+}
+
+.socialMediaNav {
+  display: flex;
+  display: inline-flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 24px;
+  /* margin-bottom: -50px; */
+  margin-top: 340px;
+  width: 100%;
+  /* height: 100%; */
+}
+
 /* * footer */
 
 #footer {
   background-color: var(--grey);
-  height: 200px;
+  height: 160px;
   width: 100%;
+  margin-top: 128px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.github:hover {
+  fill: #5184fb;
+}
+
+.github {
+  fill: #5184fb;
+}
+
+ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+  margin-bottom: -12px;
+}
+
+li {
+  padding-left: 1em;
+  text-indent: -1em;
+}
+
+li:before {
+  content: url("https://res.cloudinary.com/dsdq3yrz5/image/upload/v1725463845/portfolio/asterisk4_nofsp1.svg");
+  padding-right: 8px;
+}
+
+@media (max-width: 600px) {
+  body {
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 16px;
+  }
+
+  .navLink {
+    color: var(--grey);
+  }
+
+  .notes {
+    font-size: 24px;
+  }
+
+  .redacted {
+    font-size: 32px;
+  }
+
+  .mainBody {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 100px;
+  }
+  .github,
+  .linkedin,
+  .behance {
+    width: 80%;
+  }
+
+  li:before {
+    content: url("https://res.cloudinary.com/dsdq3yrz5/image/upload/v1725716119/portfolio/asteriskSmall_tviqyr.svg");
+    width: 20%;
+  }
+
+  li {
+    font-size: 16px;
+  }
 }

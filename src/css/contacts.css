@@ -8,10 +8,30 @@
 }
 
 #socialC {
+  margin-top: -120px;
+}
+
+.socialArrow2 {
   display: flex;
-  justify-content: space-evenly;
-  width: 240px;
-  align-items: end;
+  flex-direction: column;
+  margin-left: 220px;
+  margin-bottom: -30px;
+}
+
+#note5 {
+  margin-bottom: -30px;
+  margin-left: 80px;
+}
+
+#arrow3 {
+  width: 100px;
+}
+
+.socialMedia {
+  display: inline-flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 32px;
 }
 
 .mandatory {
@@ -54,7 +74,7 @@ textarea {
   font-weight: 400;
 }
 
-button {
+.btn {
   display: block;
   margin: 0 auto;
   background: var(--gradient-btn);
@@ -68,8 +88,47 @@ button {
   margin-top: 32px;
 }
 
-button:hover {
+.btn:hover {
   background: linear-gradient(white, white) padding-box,
     var(--gradient-btn) border-box;
   border: 4px solid transparent;
+}
+
+@media (max-width: 1000px) {
+  #contactsDiv {
+    flex-direction: column;
+  }
+  #contactsDiv1,
+  form {
+    width: 100%;
+  }
+
+  .lineCont {
+    width: 100%;
+    text-align: center;
+  }
+
+  .socialMedia {
+    gap: 16px;
+  }
+
+  .socialArrow2 {
+    margin-left: 190px;
+  }
+  #arrow3 {
+    width: 80px;
+  }
+
+  #socialC {
+    margin-top: -70px;
+  }
+
+  #note5 {
+    margin-left: 60px;
+  }
+
+  .btn {
+    font-size: 16px;
+    padding: 16px 24px;
+  }
 }

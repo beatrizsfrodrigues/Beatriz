@@ -1,8 +1,97 @@
 .videoTour {
   background-color: rgb(34, 124, 202);
-  width: 782px;
-  height: 440px;
+  /* width: 782px;
+  height: 440px; */
+  width: 60%;
+  height: auto;
   object-fit: cover;
   border-radius: 16px;
   border: var(--color-border) 4px solid;
+}
+
+.poster {
+  border-radius: 16px;
+  border: var(--color-border) 4px solid;
+  width: 25%;
+  height: auto;
+  /* height: 600.34px; */
+}
+
+.posterDiv {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.videoPoster {
+  display: flex;
+  justify-content: space-between;
+}
+
+.videoPromo {
+  width: 65%;
+  /* height: 100%; */
+  object-fit: cover;
+  border-radius: 16px;
+  border: var(--color-border) 4px solid;
+}
+
+.pPhotos {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.projectsImgP {
+  border-radius: 16px;
+  border: var(--color-border) 4px solid;
+  width: 32%;
+  /* height: 292px; */
+  object-fit: cover;
+  position: relative;
+}
+
+.projectsImgP:nth-child(2) {
+  margin: 0 -10%;
+  z-index: 1;
+  position: relative;
+  top: -20px;
+}
+
+.pInfo {
+  margin-left: 40px;
+  width: 50%;
+  font-size: 20px;
+}
+
+@media (max-width: 1000px) {
+  .pDiv1 {
+    flex-direction: column;
+  }
+
+  .videoPromo,
+  .poster,
+  .videoTour,
+  .pInfo,
+  .projectsImgP {
+    width: 100%;
+    margin: 0;
+  }
+
+  .projectsImgP:nth-child(2) {
+    margin: 0;
+    top: 0px;
+  }
+
+  .pPhotos {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .videoPoster {
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+  }
 }

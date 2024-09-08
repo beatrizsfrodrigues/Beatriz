@@ -1,5 +1,8 @@
 <template>
-  <div id="footer" class="horizontal"></div>
+  <div id="footer">
+    <p>Beatriz Rodrigues</p>
+    <small>&copy; Copyright 2024. All Rights Reserved</small>
+  </div>
 </template>
 
 <script>

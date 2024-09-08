@@ -1,23 +1,42 @@
-.filterP::after {
-  content: " \00a0 • \00a0 " !important;
-}
+/* .filterP::after {
+  content: " \00a0 • \00a0 ";
+} */
+
+/* .filtersP:last-child::after {
+  content: "" !important;
+} */
 
 .card {
   margin-top: 32px;
   width: 100%;
 }
 
-.card:hover {
-  background: rgba(81, 132, 251, 0.64);
-  backdrop-filter: blur(27.899999618530273px);
+.linkP {
+  font-size: 20px;
+  font-family: Quicksand, sans-serif;
+  font-weight: 700;
+  color: var(--color-text);
+  margin-top: 24px !important;
+  display: block;
 }
 
-/* .cardR {
-  background-color: antiquewhite;
+/* .linkPR {
+  text-align: right;
 } */
+
+.linkP:hover {
+  font-size: 20px;
+  font-family: Quicksand, sans-serif;
+  font-weight: 700;
+  color: var(--yellow);
+}
 
 .description {
   font-size: 20px;
+}
+
+.filtersP {
+  margin-top: -20px;
 }
 
 #filterIcon {
@@ -26,9 +45,13 @@
 }
 
 .infoR {
-  margin-right: -240px;
-  margin-left: auto;
-  /* background-color: aqua; */
+  margin-left: auto; /* Pushes the element to the right */
+  padding-right: 120px; /* Adds space between the text and the edge */
+  position: relative; /* Allows for absolute positioning of child elements if needed */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
 }
 
 .infoL {
@@ -36,7 +59,8 @@
 }
 
 .infoR p,
-.infoR h3 {
+.infoR h3,
+.infoR .linkP {
   text-align: right;
 }
 
@@ -87,6 +111,184 @@ div .groupL:nth-of-type(3) {
 .card {
   margin-bottom: 64px;
 }
-/* .filtersP p {
-  background-color: black;
-} */
+.cardR .filtersP {
+  justify-content: flex-end;
+}
+
+.high1 {
+  position: absolute;
+  top: -40px;
+  left: -50px;
+  z-index: -1;
+}
+
+.high2 {
+  position: absolute;
+  top: -70px;
+  left: -55px;
+  z-index: -1;
+}
+
+.high3 {
+  margin-top: -50px;
+  margin-right: 8px;
+}
+
+.high4 {
+  position: absolute;
+  top: -70px;
+  right: -40px;
+  z-index: -1;
+}
+
+@media (max-width: 1000px) {
+  .imgDiv {
+    width: 250px;
+    height: 200px;
+  }
+
+  .projectsImg {
+    width: 170px;
+    height: 108px;
+    border-radius: 8px;
+    border-width: 2px;
+  }
+
+  div .groupR:nth-of-type(2),
+  div .groupR:nth-of-type(3) {
+    margin-left: -8px;
+  }
+
+  div .groupR:nth-of-type(3) {
+    margin-left: -16px;
+  }
+
+  div .groupL:nth-of-type(2),
+  div .groupL:nth-of-type(3) {
+    margin-left: 8px;
+  }
+
+  div .groupL:nth-of-type(3) {
+    margin-left: 16px;
+  }
+
+  .infoL h3 {
+    margin-top: 0px;
+  }
+
+  .high1,
+  .high2,
+  .high3,
+  .high4 {
+    width: 60px;
+    top: -30px;
+  }
+
+  .high1 {
+    left: -30px;
+    top: -20px;
+    width: 20%;
+  }
+
+  .high2 {
+    left: -30px;
+    top: -30px;
+  }
+
+  .high3 {
+    margin-top: -20px;
+    margin-right: -70px;
+  }
+
+  .high4 {
+    right: -10px;
+  }
+
+  .infoL {
+    margin-left: 0px;
+  }
+
+  .infoR {
+    margin-right: -40px;
+    margin-left: auto;
+  }
+
+  .infoR h3 {
+    margin-right: 0px;
+    margin-left: auto;
+  }
+
+  .linkP {
+    margin-top: 8px !important;
+    display: block;
+    font-size: 16px;
+    /* font-size: 12px; */
+  }
+
+  .linkP:hover {
+    font-size: 12px;
+    font-family: Quicksand, sans-serif;
+    font-weight: 700;
+    color: var(--yellow);
+  }
+
+  .imgGroupR {
+    margin-right: -70px;
+    margin-left: auto;
+  }
+
+  .filtersP {
+    margin-top: -16px;
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+  }
+
+  .filtersP * {
+    margin: 0;
+  }
+
+  .card {
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 400px) {
+  .imgDiv {
+    width: 155px;
+    height: 100px;
+  }
+
+  .projectsImg {
+    width: 120px;
+    height: 70px;
+    border-radius: 8px;
+    border-width: 2px;
+  }
+
+  .linkP {
+    margin-top: -24px;
+  }
+
+  .infoR {
+    margin-right: -85px;
+    margin-left: auto;
+  }
+
+  .imgGroupR {
+    margin-right: -30px;
+  }
+
+  .high1,
+  .high2,
+  .high3,
+  .high4 {
+    width: 40px;
+    top: -18px;
+  }
+
+  .high1,
+  .high2 {
+    left: -20px;
+  }
+}

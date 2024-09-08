@@ -12,7 +12,7 @@
       "video_tour": "https://res.cloudinary.com/dsdq3yrz5/video/upload/v1725374101/portfolio/evergreen_tour_pkd6jk.mp4",
       "poster": "https://res.cloudinary.com/dsdq3yrz5/image/upload/v1725377254/portfolio/poster_evergreen_mfl7ov.png",
       "skills": [0, 1, 2, 4, 5, 6],
-      "githubPages": "https://motamdaniela.github.io/Evergreen/Home",
+      "githubPages": "https://motamdaniela.github.io/Evergreen/",
       "github": "https://github.com/motamdaniela/Evergreen",
       "github2": "https://github.com/motamdaniela/Evergreen-backend",
       "figma": "https://www.figma.com/design/Ywjn7cvznFeKiS011dGjtV/Evergreen?node-id=0-1&t=PrtiIfWZAi0GE6gk-1",
@@ -63,6 +63,34 @@
       "skills": [1, 9],
       "github": "https://github.com/motamdaniela/Eco-Meow/tree/main/Eco-Meow2.0",
       "description": "Eco-Meow 2.0 is the successor to Eco-Meow, aiming to build on the original game’s concept with enhanced 3D graphics. In this sequel, we retained the three characters from the previous game and introduced new cooperative gameplay elements. The characters now work together to plant a tree, collect its fruit, and enjoy it, adding a new layer of interaction and fun to the  experience."
+    },
+    {
+      "id": 4,
+      "name": "Anda",
+      "filter": [1, 2, 6],
+      "photos": [
+        "https://res.cloudinary.com/dsdq3yrz5/image/upload/v1725835162/portfolio/Captura_de_ecr%C3%A3_2024-09-08_221209_xqsf8z.png",
+        "https://res.cloudinary.com/dsdq3yrz5/image/upload/v1725829698/portfolio/Captura_de_ecr%C3%A3_2024-09-08_215817_k1u2rn.png",
+        "https://res.cloudinary.com/dsdq3yrz5/image/upload/v1725829697/portfolio/Captura_de_ecr%C3%A3_2024-09-08_215723_nouosl.png"
+      ],
+      "video_tour": "https://res.cloudinary.com/dsdq3yrz5/video/upload/v1725829647/portfolio/Grava%C3%A7%C3%A3o_de_Ecr%C3%A3_2024-09-08_215641_zzjoop.mp4",
+      "skills": [2],
+      "figma": "https://www.figma.com/design/v0hDaDkTE99eoETz4Es9kz/User-Centered-Design?node-id=152-2&t=sR2gP1iWmsiaBHPv-1",
+      "description": "Anda is an app designed for Metro do Porto that essentially replaces the traditional transit card. The challenge for this project was to identify a problem in our city and enhance it with a user-centered solution. With a focus on improving the experience for commuters, we developed a fresh design and introduced new features to make the app more intuitive and functional."
+    },
+    {
+      "id": 5,
+      "name": "Cinema Trindade",
+      "filter": [1, 2, 6],
+      "photos": [
+        "https://res.cloudinary.com/dsdq3yrz5/image/upload/v1725829696/portfolio/Captura_de_ecr%C3%A3_2024-09-08_220009_hpejyg.png",
+        "https://res.cloudinary.com/dsdq3yrz5/image/upload/v1725829694/portfolio/Captura_de_ecr%C3%A3_2024-09-08_215942_wznwmd.png",
+        "https://res.cloudinary.com/dsdq3yrz5/image/upload/v1725829693/portfolio/Captura_de_ecr%C3%A3_2024-09-08_215931_qakt0e.png"
+      ],
+      "video_tour": "https://res.cloudinary.com/dsdq3yrz5/video/upload/v1725829685/portfolio/Cinema_Trindade_-_Figma_2024-09-08_22-06-08_lxnbrm.mp4",
+      "skills": [2],
+      "figma": "https://www.figma.com/design/MUkqanmeoBeGorNtFDe4nn/Cinema-Trindade?node-id=52-2&t=n42yWrMnQZkbLdVj-1",
+      "description": "Given the task of improving the user experience of a platform, we redesigned the interface for Cinema Trindade. After conducting user tests and identifying their needs, we developed a new design for the three pages that required the most attention. This process allowed us to create a more intuitive and user-friendly interface, tailored to enhance the overall experience."
     }
   ],
 

@@ -64,6 +64,16 @@
   font-size: 20px;
 }
 
+#linksProj {
+  justify-content: center;
+  margin-top: 24px;
+  gap: 24px;
+}
+
+.linkOut {
+  color: var(--color-text);
+}
+
 @media (max-width: 1000px) {
   .pDiv1 {
     flex-direction: column;

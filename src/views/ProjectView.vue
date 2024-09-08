@@ -44,6 +44,22 @@
         <img class="poster" :src="project.poster" alt="" />
       </div>
     </div>
+    <h3 style="text-align: center; margin-top: 56px">Project Links</h3>
+    <button
+      class="btn"
+      v-if="project.githubPages"
+      @click="goToGithubPages"
+      style="margin-top: 24px"
+    >
+      Github Pages
+    </button>
+    <div class="horizontal" id="linksProj">
+      <a v-if="project.figma" :href="project.figma" class="linkOut">Figma</a>
+      <a v-if="project.github" :href="project.github" class="linkOut">Github</a>
+      <a v-if="project.github2" :href="project.github2" class="linkOut"
+        >Github for Backend</a
+      >
+    </div>
   </div>
 </template>
 
@@ -80,6 +96,11 @@ export default {
     );
 
     console.log(this.project.photo);
+  },
+  methods: {
+    goToGithubPages() {
+      window.open(this.project.githubPages, "_blank");
+    },
   },
 };
 </script>

@@ -89,7 +89,8 @@ textarea {
 }
 
 .btn:hover {
-  background: linear-gradient(white, white) padding-box,
+  background:
+    linear-gradient(white, white) padding-box,
     var(--gradient-btn) border-box;
   border: 4px solid transparent;
 }

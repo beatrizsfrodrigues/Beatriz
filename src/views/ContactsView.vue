@@ -117,12 +117,12 @@ export default {
               console.log(
                 "Email sent successfully:",
                 response.status,
-                response.text
+                response.text,
               );
             },
             (error) => {
               console.error("Failed to send email:", error);
-            }
+            },
           );
 
         this.email = "";

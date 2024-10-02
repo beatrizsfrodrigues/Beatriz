@@ -1,54 +1,49 @@
 /** color palette  */
 :root {
-    --pink: #FACDFC;
-  
-    --blue: #6B99E2;
+  --pink: #facdfc;
 
-    --dark-blue: #5184FB;
-  
-    --grey: #313131;
-  
-    --red: #FA4E37;
+  --blue: #6b99e2;
 
-    --yellow: #F0EC84;
+  --dark-blue: #5184fb;
 
-    --white: #F2F0EE;
+  --grey: #313131;
 
-    --main-gradient: linear-gradient(180deg, #5184FB 0%, #BDB6FA 125.69%);
+  --red: #fa4e37;
 
-    --btn-gradient: linear-gradient(105deg, #FACDFC -1.24%, #F0EC84 98.99%);
+  --yellow: #f0ec84;
 
-  }
-  
-  /** semantic color variables for this project */
-  
-  :root {
-    --gradient-background: var(--main-gradient);
+  --white: #f2f0ee;
 
-    --gradient-btn: var(--btn-gradient);
+  --main-gradient: linear-gradient(180deg, #5184fb 0%, #bdb6fa 125.69%);
 
-    --color-text: var(--white);
+  --btn-gradient: linear-gradient(105deg, #facdfc -1.24%, #f0ec84 98.99%);
+}
 
-    --color-mandatory: var(--red);
+/** semantic color variables for this project */
 
-    --color-border: var(--white);
+:root {
+  --gradient-background: var(--main-gradient);
 
-    --background-noise: url("../images/Noise.png") lightgray 0% 0% / 148.5629677772522px 148.5629677772522px repeat;
+  --gradient-btn: var(--btn-gradient);
 
+  --color-text: var(--white);
 
+  --color-mandatory: var(--red);
 
+  --color-border: var(--white);
 
+  --background-noise: url("../images/Noise.png") lightgray 0% 0% /
+    148.5629677772522px 148.5629677772522px repeat;
 
+  --color-background-card: var(--light-grey);
 
-    --color-background-card: var(--light-grey);
-  
-    --color-button: var(--light-green);
-    --color-button-active: var(--green);
-  
-    --color-shadow: var(--dark-pink);
-  
-    --color-background-project: #000000;
-    --color-backgroundCard-project: #000000;
-    --color-shadow-project: #000000;
-    --color-borderText-project: #000000;
-  }
+  --color-button: var(--light-green);
+  --color-button-active: var(--green);
+
+  --color-shadow: var(--dark-pink);
+
+  --color-background-project: #000000;
+  --color-backgroundCard-project: #000000;
+  --color-shadow-project: #000000;
+  --color-borderText-project: #000000;
+}

@@ -92,7 +92,7 @@ export default {
     }
 
     this.project = this.projects.find(
-      (project) => project.id == this.$route.params.id
+      (project) => project.id == this.$route.params.id,
     );
 
     console.log(this.project.photo);
